@@ -51,8 +51,8 @@ int checkNumber(Node* head, int val){
     while(temp){
         if(temp->data == val) {
             return 1;
-        temp = temp->next;
         }
+        temp = temp->next;
     }
     return 0;
 }
